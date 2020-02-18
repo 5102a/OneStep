@@ -1,0 +1,223 @@
+/* -----------------------版心----------------------- */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+/* -----------------------导航 ---------------------- */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.style_red {
+  color: beige;
+}
+
+.shortcut {
+  position: relative;
+  margin: auto;
+  height: 80px;
+  line-height: 80px;
+  background-color: rgb(43, 48, 59);
+}
+
+.nav {
+  position: absolute;
+}
+
+.shortcut ul li {
+  float: left;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+  width: 100px;
+  height: 40px;
+}
+
+.logo a {
+  display: block;
+  width: 140px;
+  height: 50px;
+  font-size: 0;
+  background: url(../logo5102IT.png) no-repeat;
+}
+
+.search {
+  position: relative;
+  float: right;
+  left: 800px;
+  top: -20px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(56, 62, 78);
+  border: 5px solid rgb(56, 62, 78);
+}
+
+.search input {
+  float: left;
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: rgb(56, 62, 78);
+}
+
+.search button {
+  float: right;
+  width: 40px;
+  height: 30px;
+  background: url(../img/search.png) no-repeat;
+  background-color: rgb(56, 62, 78);
+}
+
+.user_head {
+  position: relative;
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.user_head img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.loginbar {
+  position: absolute;
+  left: 1050px;
+  top: 25px;
+  width: 160px;
+  height: 30px;
+}
+
+.loginbar ul {
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.login {
+  width: 60px;
+  height: 30px;
+  padding-left: 4px;
+}
+
+.logon {
+  width: 100px;
+  height: 30px;
+  padding-left: 16px;
+  background-color: rgb(0, 164, 255);
+}
+
+.logon a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.logon:hover {
+  background-color: rgb(0, 134, 215);
+
+}
+
+/* --------------------------头部------------------------- */
+
+/* ----------------友情链接---------------- */
+.guide {
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.links {
+  height: 100px;
+}
+
+.links ul li {
+  float: left;
+  width: 300px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+/* -----------------------底部-------------------- */
+.footer {
+  height: 300px;
+  background-color: rgb(46, 48, 51);
+  padding-top: 25px;
+  margin-bottom: 0px;
+}
+
+/* 服务块 */
+.mod_service {
+  height: 75px;
+  border-bottom: 1px solid rgba(245, 245, 220, 0.178);
+}
+
+.mod_service ul li {
+  float: left;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* 帮助块 */
+.mod_help {
+  height: 80px;
+  line-height: 80px;
+}
+
+.buttom_logo {
+  float: left;
+  width: 120px;
+  height: 80px;
+  padding-left: 10px;
+  background-color: rgb(46, 48, 51);
+}
+
+/* 支持 */
+.mod_help .support {
+  float: left;
+  width: 1080px;
+  height: 80px;
+  padding-left: 780px;
+  color: rgb(134, 76, 76);
+}
+
+.mod_help ul li {
+  float: left;
+  height: 80px;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/* 版权 */
+.mod_copyright {
+  height: 80px;
+  line-height: 80px;
+}
+
+.contact ul li {
+  width: 200px;
+  font-size: 16px;
+}
+
+.beian {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.beian a {
+  float: right;
+  font-size: 16px;
+  color: #939393;
+}

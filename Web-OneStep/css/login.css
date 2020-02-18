@@ -1,0 +1,160 @@
+.w {
+  width: 1200px;
+  /* padding: 0px; */
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+header {
+  height: 80px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.431);
+}
+
+.logo {
+  padding-top: 18px;
+}
+
+.registerarea {
+  width: 800px;
+  height: 500px;
+  border: 1px solid rgb(11, 39, 38);
+  margin: 20px auto 0;
+  background-color: rgb(187, 235, 225);
+}
+
+.registerarea h3 {
+  height: 42px;
+  border-bottom: 1px solid rgb(21, 122, 92);
+  background-color: rgb(14, 230, 14);
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login {
+  float: right;
+  font-size: 14px;
+}
+
+.login a {
+  color: rgb(10, 10, 10);
+}
+
+.login_form {
+  width: 440px;
+  /* background-color: blue; */
+  margin: 80px auto 0;
+}
+
+.login_form ul li {
+  margin-bottom: 20px;
+}
+
+.login_form ul li label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  color: #000;
+}
+
+.login_form ul li input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.login_form ul li a {
+  color: blue;
+  font-size: 14px;
+  width: 90px;
+  text-decoration: underline;
+  margin-left: 120px;
+  /* background-color: rgb(150, 150, 195); */
+}
+
+.mag_login {
+  display: none;
+}
+
+
+
+/* 取消箭头 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.tap {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  background: url(../img/tap.png) no-repeat;
+  padding-left: 20px;
+}
+
+.error {
+  background: url(../img/error.png) no-repeat;
+}
+
+.success {
+  background: url(../img/success.png) no-repeat;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  border: 0;
+  outline: none;
+}
+
+#submit {
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: 60px auto 0;
+}
+
+
+
+
+
+
+/* 版权 */
+.footer {
+  margin-top: 60px;
+  height: 200px;
+  border-top: 1px solid rgba(255, 255, 255, 0.294);
+}
+
+.mod_copyright {
+  height: 80px;
+  line-height: 80px;
+}
+
+.contact ul li {
+  float: left;
+  width: 200px;
+  font-size: 16px;
+}
+
+.contact ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.beian {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.beian a {
+  float: right;
+  font-size: 16px;
+  color: #939393;
+}

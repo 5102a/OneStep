@@ -1,0 +1,166 @@
+.w {
+  width: 1200px;
+  /* padding: 0px; */
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+header {
+  height: 80px;
+  border-bottom: 2px solid rgba(255, 255, 253, 0.582);
+}
+
+.logo {
+  padding-top: 18px;
+}
+
+
+
+.registerarea {
+  width: 800px;
+  height: 500px;
+  border: 1px solid firebrick;
+  margin: 20px auto 0;
+  background-color: rgb(178, 235, 206);
+}
+
+.registerarea h3 {
+  height: 42px;
+  border-bottom: 1px solid firebrick;
+  background-color: forestgreen;
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login {
+  float: right;
+  font-size: 14px;
+}
+
+.login a {
+  color: rgb(10, 10, 10);
+}
+
+.reg_form {
+  width: 440px;
+  /* background-color: blue; */
+  margin: 50px auto 0;
+}
+
+.reg_form ul li {
+  margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  color: #000;
+}
+
+.reg_form ul li input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid currentColor;
+  
+}
+
+
+
+
+
+.tap {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  background: url(../img/tap.png) no-repeat;
+  padding-left: 20px;
+}
+
+.error {
+  background: url(../img/error.png) no-repeat;
+}
+
+.success {
+  background: url(../img/success.png) no-repeat;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+  background-color: white;
+}
+
+
+#submit {
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: 30px auto 0;
+}
+
+/* .error {
+  color: red;
+}
+.error_icon,.success_icon{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-top: -2px;
+  background:url(../img/error.png) no-repeat;
+}
+.success {
+  color: green;
+}
+.success_icon {
+  background:url(../img/success.png) no-repeat;
+} */
+
+
+
+
+
+
+
+
+
+
+/* 版权 */
+.footer {
+  margin-top: 60px;
+  height: 200px;
+  border-top: 1px solid rgba(255, 255, 255, 0.404);
+}
+
+.mod_copyright {
+  height: 80px;
+  line-height: 80px;
+}
+
+.contact ul li {
+  float: left;
+  width: 200px;
+  font-size: 16px;
+}
+
+.contact ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.beian {
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.beian a {
+  float: right;
+  font-size: 16px;
+  color: #939393;
+}

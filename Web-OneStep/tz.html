@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5102it</title>
+</head>
+<style>
+  * {
+    margin: 0 auto;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(58, 211, 12);
+  }
+
+  h1 {
+    margin-top: 100px;
+  }
+</style>
+
+<body>
+  <header>
+    <h1>注册成功！</h1>
+    <h3></h3>
+    <a href="http://localhost/index.html">手动跳转到主页</a>
+  </header>
+</body>
+<script>
+  var h3 = document.querySelector('h3');
+  var time = 3;
+  var timer = setInterval(function () {
+    if (time == 0) {
+      clearInterval(timer);
+      window.location = "http://localhost/index.html";
+    } else {
+      h3.innerText = "还有" + time + "秒自动跳转到主页";
+      time--;
+    }
+  }, 1000)
+</script>
+
+</html>

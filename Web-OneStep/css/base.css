@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* css3盒子模型 */
+  box-sizing: border-box;
+}
+
+/* 斜体和倾斜去掉 */
+em,
+i {
+  font-size: normal;
+}
+
+/* 去li圆点 */
+li {
+  list-style-type: none;
+}
+
+img {
+  /* 低版本浏览器边框 */
+  border: 0;
+  /* 取消图片空白缝隙 */
+  vertical-align: middle;
+}
+
+button {
+  /* 鼠标小手 */
+  cursor: pointer;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(146, 146, 233);
+}
+
+button,
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0;
+  outline: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(43, 48, 59);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+.hide,
+.none {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+

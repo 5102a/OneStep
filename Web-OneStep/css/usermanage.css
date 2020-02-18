@@ -1,0 +1,284 @@
+body {
+  margin: auto;
+  background-color: rgb(13, 99, 92);
+}
+
+.info {
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.hide {
+  display: none !important;
+}
+.menu {
+  position: relative;
+  display: block;
+  float: left;
+  width: 250px;
+  height: 100%;
+  color: #000;
+  user-select: none;
+  background-color: rgba(118, 197, 211, 0.726);
+}
+
+.menu_list_top {
+  display: block;
+  height: 150px;
+  background-color: rgb(81, 156, 150);
+}
+
+.head {
+  display: block;
+  width: 180px;
+  height: 120px;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.head img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.head p {
+  display: block;
+  padding-top: 20px;
+}
+
+.menu_list_center {
+  margin-top: 20px;
+  line-height: 60px;
+  background-color: rgb(81, 156, 150);
+}
+
+.menu_list_foot {
+  margin-top: 20px;
+  line-height: 60px;
+  margin-bottom: 60px;
+  background-color: rgb(81, 156, 150);
+}
+
+.li_list {
+  height: 60px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(206, 178, 178, 0.3);
+}
+
+.li_list:hover {
+  cursor: pointer;
+  background-color: rgb(13, 99, 92);
+}
+
+.li_left {
+  float: left;
+  padding-left: 20px;
+}
+
+.li_right {
+  float: right;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+
+.main {
+  display: block;
+  float: right;
+  width: 1149px;
+  height: 100%;
+  background-color: saddlebrown;
+}
+
+.main_body {
+  position: absolute;
+  display: block;
+}
+
+.main_page {
+  position: absolute;
+  display: block;
+  left: 60px;
+  width: 1000px;
+  height: 600px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgba(144, 175, 168, 0.7);
+}
+
+.page_content {
+  position: relative;
+  width: 600px;
+  height: 95%;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: rgb(144, 175, 168);
+}
+
+
+#head_change {
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* background-color: rgb(172, 231, 198); */
+}
+#head_change img{
+  border-radius: 50%;
+}
+
+#head_change div{
+  float: right;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  color: #000;
+}
+#head_change input{
+  float: right;
+  width: 200px;
+  color: #000;
+  margin-top: -20px;
+}
+
+.user_info {
+  width: 400px;
+  margin: 0 auto;
+  /* background-color: seagreen; */
+}
+
+.user_info_m {
+  width: 400px;
+  height: 500px;
+  font-size: 16px;
+  color: #000;
+  /* background-color: rgb(75, 45, 226); */
+}
+
+.user_info_m li{
+  width: 200px;
+  height: 60px;
+  text-align: right;
+  line-height: 100px;
+  /* background-color: rgb(12, 216, 22); */
+}
+.user_info_m li div{
+  user-select: none;
+  width: 120px;
+  height: 80px;
+  /* background-color: #fff; */
+}
+.user_info_m li input:not([type='radio']){
+  float: right;
+  width: 160px;
+  height: 30px;
+  margin-right: 115px;
+  margin-top: 35px;
+  padding-left: 3px;
+  border: 1px solid rgb(138, 153, 152);
+  background-color: rgb(139, 197, 183);
+}
+
+.user_info_m li[id='radio'] div{
+  position: relative;
+  float: left;
+  display: block;
+  width: 40px;
+  height: 30px;
+  margin-right: 10px;
+  right: 70px;
+}
+.user_info_m li[id='radio'] div:last-child{
+  width: 55px;
+}
+.user_info_m li input[type='radio']{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+.user_info_m li #time{
+  float: right;
+  width: 160px;
+  height: 30px;
+  margin-top: 35px;
+  margin-right: 115px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.user_info_m .change {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin: 20px auto;
+  left: 200px;
+  border-radius: 5px;
+  background-color: rgb(118, 228, 191);
+}
+
+.user_info_body{
+  width: 400px;
+  height: 400px;
+  padding-top: 50px;
+}
+
+.user_info_body li{
+  width: 400px;
+  height: 80px;
+  color: #000;
+  margin-top: 20px;
+  font-size: 24px;
+  /* background-color: rgb(172, 181, 211); */
+}
+
+.user_info_body div{
+  width: 300px;
+  height: 40px;
+}
+
+.user_info_body input{
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  padding-left: 5px;
+  background-color: rgb(139, 197, 183);
+}
+.user_info_body .can_change{
+  background-color: rgb(189,247,233);
+}
+.user_info_body button{
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: rgb(81, 114, 114);
+}
+
+
+.user_info_body .send_check{
+  float: right; 
+  width: 100px;
+  height: 40px;
+  color: #000;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
